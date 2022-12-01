@@ -8,6 +8,9 @@ function ExpenseItem() {
                 <div>
                     
                 </div>
+                <div>
+                Price
+            </div>
                 Title
             </div>
         </div>
