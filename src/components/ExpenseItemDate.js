@@ -3,7 +3,7 @@
 function ExpenseItemDate(props) {
     const month=props.expense.date.toLocaleString('en-US', {month:'long'})                                                               
     const day=props.expense.date.toLocaleString('en-US', {day:'2-digit'})                                                               
-    const year = props.date.getFullYear() 
+    const year = props.expenseDate.getFullYear() 
     
     return (
         <div className="expense-item-date">
