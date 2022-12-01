@@ -1,5 +1,7 @@
 import '../css/ExpenseItem.css'
 
+expenseDate
+
 function ExpenseItem() {
     return (
         <div className="expense-item">
