@@ -19,7 +19,7 @@ function App() {
       price:500
     }
   ]
-  
+
   return (
     <ExpenseItem expense={expenses[0]}>
     </ExpenseItem>
@@ -27,7 +27,7 @@ function App() {
     </ExpenseItem>
     <ExpenseItem expense={expenses[2]}>
     </ExpenseItem>
-  );
+  )
 }
 
 export default App
