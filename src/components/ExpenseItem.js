@@ -1,4 +1,4 @@
-import ''
+import '../css/ExpenseItem.css'
 
 function ExpenseItem() {
     return (
