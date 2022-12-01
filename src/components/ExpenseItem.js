@@ -1,7 +1,6 @@
 import '../css/ExpenseItem.css'
 
 function ExpenseItem(props) {
-
     return (
         <div className="expense-item">
             <div className="expense-item-date">
