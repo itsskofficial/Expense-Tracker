@@ -4,8 +4,8 @@ function ExpenseItem() {
             <div className="expense-date">
                 Date
             </div>
-            <div>
-                <div>
+            <div className="expense-info">
+                <div className="expense">
                     Title  
                 </div>
                 <div>
