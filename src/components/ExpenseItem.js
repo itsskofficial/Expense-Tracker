@@ -1,8 +1,5 @@
 import '../css/ExpenseItem.css'
 
-expenseDate = new Date(2021, 3, 28)
-
-
 function ExpenseItem() {
     return (
         <div className="expense-item">
