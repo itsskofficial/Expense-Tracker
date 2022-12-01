@@ -15,7 +15,7 @@ function ExpenseItem() {
                     {expenseTitle}  
                 </div>
                 <div className="expense-item-price">
-                    {exp}
+                    {expensePrice}
                 </div>
             </div>
         </div>
