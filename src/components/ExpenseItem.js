@@ -5,7 +5,7 @@ function ExpenseItem() {
                 Date
             </div>
             <div className="expense-item-info">
-                <div className="expenseitem--title">
+                <div className="expense-item-title">
                     Title  
                 </div>
                 <div className="expense-price">
