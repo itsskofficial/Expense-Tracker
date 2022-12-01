@@ -5,7 +5,7 @@ function ExpenseItem(props) {
     return (
         <div className="expense-item">
             <div className="expense-item-date">
-                {props[date].toISOString()}
+                {props["date"].toISOString()}
             </div>
             <div className="expense-item-info">
                 <div className="expense-item-title">
