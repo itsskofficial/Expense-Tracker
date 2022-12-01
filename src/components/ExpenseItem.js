@@ -1,4 +1,4 @@
-import './'
+import ''
 
 function ExpenseItem() {
     return (
