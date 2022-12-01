@@ -11,4 +11,5 @@
 
 .expense-item-info{
     display: flex;
+    width: 100%;
 }
