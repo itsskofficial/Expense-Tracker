@@ -1,6 +1,7 @@
 .expense-item{
     display: flex;
     width:50%;
+    margin-top: ;
 }
 
 .expense-item-date{
