@@ -8,7 +8,7 @@ function ExpenseItem() {
                 <div className="expense-title">
                     Title  
                 </div>
-                <div>
+                <div className="expense-price">
                     Price
                 </div>
             </div>
