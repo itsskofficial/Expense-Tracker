@@ -21,6 +21,9 @@ function App() {
   ]
 
   return (
+    <div>
+      
+    </div>
     <ExpenseItem expense={expenses[0]}>
     </ExpenseItem>
     <ExpenseItem expense={expenses[1]}>
