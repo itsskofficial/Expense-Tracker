@@ -5,6 +5,9 @@ function ExpenseItem() {
                 Date
             </div>
             <div>
+                <div>
+                    
+                </div>
                 Title
             </div>
             <div>
