@@ -1,4 +1,5 @@
 import '../css/ExpenseItem.css'
+import '../index.css'
 
 function ExpenseItem() {
     return (
