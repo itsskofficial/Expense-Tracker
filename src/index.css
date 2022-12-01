@@ -8,8 +8,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
-  justify-content: center;
-  align-items: center;
 }
 
 code {
