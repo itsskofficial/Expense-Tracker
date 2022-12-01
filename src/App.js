@@ -1,4 +1,4 @@
-import './components/'
+import './components/ExpenseItem'
 
 function App() {
   return (
