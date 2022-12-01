@@ -1,4 +1,4 @@
-
+import './components/'
 
 function App() {
   return (
