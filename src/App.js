@@ -19,6 +19,7 @@ function App() {
       price:500
     }
   ]
+  
   return (
     <ExpenseItem expense={expenses[0]}>
     </ExpenseItem>
