@@ -4,6 +4,9 @@ function ExpenseItem() {
             <div>
                 Date
             </div>
+            <div>
+                
+            </div>
         </div>
         <div>
             
