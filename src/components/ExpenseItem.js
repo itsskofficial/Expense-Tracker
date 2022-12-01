@@ -1,6 +1,6 @@
 function ExpenseItem() {
     return (
-        <div>
+        <div className="">
             <div>
                 Date
             </div>
