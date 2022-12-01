@@ -9,7 +9,7 @@ function ExpenseItem(props) {
             </div>
             <div className="expense-item-info">
                 <div className="expense-item-title">
-                    {expenseTitle}  
+                    {props.title}  
                 </div>
                 <div className="expense-item-price">
                     {expensePrice}
