@@ -1,7 +1,7 @@
 import '../css/ExpenseItem.css'
 
 function ExpenseItem(props) {
-    month=props.expense.date.toLocaleString('en-US', {mo})
+    month=props.expense.date.toLocaleString('en-US', {})
     return (
         <div className="expense-item">
             <div className="expense-item-date">
