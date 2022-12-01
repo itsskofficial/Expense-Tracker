@@ -8,7 +8,7 @@ function ExpenseItem(props) {
             </div>
             <div className="expense-item-info">
                 <div className="expense-item-title">
-                    {props.title}  
+                    {props.expense.title}  
                 </div>
                 <div className="expense-item-price">
                     {props.price}
