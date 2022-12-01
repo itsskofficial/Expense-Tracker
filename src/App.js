@@ -20,7 +20,8 @@ function App() {
     }
   ]
   return (
-    <ExpenseItem expense={expenses[0]}></ExpenseItem>
+    <ExpenseItem expense={expenses[0]}>
+    </ExpenseItem>
   );
 }
 
