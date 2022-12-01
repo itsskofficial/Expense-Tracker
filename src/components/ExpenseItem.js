@@ -1,6 +1,6 @@
 import '../css/ExpenseItem.css'
 
-expenseDate
+ExpenseDate
 
 function ExpenseItem() {
     return (
