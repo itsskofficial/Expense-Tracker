@@ -4,8 +4,8 @@ import './index.css'
 function App() {
   expenses = [
     {
-      date=new Date(2021,12,3)
-      
+      date=new Date(2021, 12, 3),
+      title="Ojaswini"
     }
   ]
   return (
