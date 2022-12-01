@@ -1,6 +1,7 @@
 import '../css/ExpenseItem.css'
 
 function ExpenseItem(props) {
+    month=props.expense.date.toL
     return (
         <div className="expense-item">
             <div className="expense-item-date">
