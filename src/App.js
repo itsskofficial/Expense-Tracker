@@ -5,7 +5,8 @@ function App() {
   expenses = [
     {
       date=new Date(2021, 12, 3),
-      title="Ojaswini"
+      title="Ojaswini",
+      price=500
     }
   ]
   return (
