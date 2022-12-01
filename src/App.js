@@ -4,7 +4,7 @@ import './index.css'
 function App() {
   expenses = [
     {
-      const date=new Date(2021, 12, 3),
+      let date=new Date(2021, 12, 3),
       title="Ojaswini",
       price=500
     }
