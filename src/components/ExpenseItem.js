@@ -7,9 +7,10 @@ function ExpenseItem(props) {
     return (
         <div className="expense-item">
             <div className="expense-item-date">
-                <div className=''>
+                <div className="expense-item-date-month">
                     {month}
                 </div>
+                
             </div>
             <div className="expense-item-info">
                 <div className="expense-item-title">
