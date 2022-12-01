@@ -10,7 +10,7 @@ function ExpenseItem() {
                 </div>
                 <div>
                     Price
-            </div>
+                </div>
             </div>
         </div>
         <div>
