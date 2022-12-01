@@ -1,4 +1,4 @@
-import './components/ExpenseItem'
+import ExpenseItem fro from "./components/ExpenseItem";'./components/ExpenseItem'
 
 function App() {
   return (
