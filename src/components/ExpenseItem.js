@@ -1,7 +1,7 @@
 function ExpenseItem() {
     return (
         <div className="expense-item">
-            <div cl>
+            <div className="expense-date">
                 Date
             </div>
             <div>
