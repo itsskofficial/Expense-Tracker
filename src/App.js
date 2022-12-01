@@ -7,7 +7,8 @@ function App() {
       date:new Date(2021, 12, 3),
       title:"Ojaswini",
       price:500
-    }
+    },
+    
   ]
   return (
     <ExpenseItem></ExpenseItem>
