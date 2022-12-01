@@ -19,3 +19,5 @@ function ExpenseItemDate(props) {
         </div>
     )
 }
+
+export default ExpenseItemDate
