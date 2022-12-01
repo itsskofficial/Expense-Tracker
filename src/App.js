@@ -22,12 +22,12 @@ function App() {
 
   return (
     <div>
-        <ExpenseItem expense={expenses[0]}>
+      <ExpenseItem expense={expenses[0]}>
         </ExpenseItem>
         <ExpenseItem expense={expenses[1]}>
-    </ExpenseItem>
-    <ExpenseItem expense={expenses[2]}>
-    </ExpenseItem>
+        </ExpenseItem>
+        <ExpenseItem expense={expenses[2]}>
+        </ExpenseItem>
     </div>
   )
 }
