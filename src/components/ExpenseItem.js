@@ -1,5 +1,4 @@
 import '../css/ExpenseItem.css'
-import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 function ExpenseItem() {
     return (
