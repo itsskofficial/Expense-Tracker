@@ -2,9 +2,11 @@ import ExpenseItem from "./components/ExpenseItem"
 import './index.css'
 
 function App() {
-  expenses = [{
-    
-  }]
+  expenses = [
+    {
+      date
+    }
+  ]
   return (
     <ExpenseItem></ExpenseItem>
   );
