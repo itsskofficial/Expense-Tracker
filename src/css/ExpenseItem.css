@@ -16,5 +16,6 @@
 }
 
 .expense-item-title{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
 }
