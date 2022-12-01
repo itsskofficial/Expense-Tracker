@@ -3,7 +3,7 @@ import '../css/ExpenseItem.css'
 function ExpenseItem() {
     const expenseDate = new Date(2021, 3, 28)
     const expenseTitle = "Ojaswini's Bracelet"
-    const expensePrice=""
+    const expensePrice= 294
 
     return (
         <div className="expense-item">
