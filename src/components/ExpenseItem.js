@@ -12,10 +12,10 @@ function ExpenseItem() {
             </div>
             <div className="expense-item-info">
                 <div className="expense-item-title">
-                    Title  
+                    {expenseTitle}  
                 </div>
                 <div className="expense-item-price">
-                    Price
+                    {exp}
                 </div>
             </div>
         </div>
