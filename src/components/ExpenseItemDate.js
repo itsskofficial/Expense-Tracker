@@ -17,5 +17,5 @@ function ExpenseItemDate(props) {
                 {year}
             </div>
         </div>
-    }
+    )
 }
