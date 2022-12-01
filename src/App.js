@@ -4,7 +4,8 @@ import './index.css'
 function App() {
   expenses = [
     {
-      date=
+      date=new Date(2021,12,3)
+      
     }
   ]
   return (
