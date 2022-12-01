@@ -10,10 +10,10 @@ function ExpenseItem(props) {
                 <div className="expense-item-date-month">
                     {month}
                 </div>
-                <div className="expense-item-date-month">
+                <div className="expense-item-date-day">
                     {day}
                 </div>
-                <div className="expense-item-date-month">
+                <div className="expense-item-date-year">
                     {year}
                 </div>
             </div>
