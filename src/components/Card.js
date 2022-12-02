@@ -1,5 +1,5 @@
 function Card() {
     return (
-        <div></div>
+        <div className="card"></div>
     )
 }
