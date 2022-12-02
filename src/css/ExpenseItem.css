@@ -16,14 +16,14 @@
 .expense-item-title{
     font-family: 'Montserrat',sans-serif;
     font-weight: 600;
-    font-size:30px;
+    font-size:25px;
     color: white;
 }
 
 .expense-item-price{
     font-family: 'Montserrat',sans-serif;
     font-weight: 600;
-    font-size:30px;
+    font-size:25px;
     margin-left: 20px;
     color: white;
 }
