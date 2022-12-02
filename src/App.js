@@ -1,3 +1,4 @@
+import Card from "./components/Card"
 import ExpenseItem from "./components/ExpenseItem"
 import './index.css'
 
@@ -21,14 +22,14 @@ function App() {
   ]
 
   return (
-    <div className="container">
+    <Card className="container">
       <ExpenseItem expense={expenses[0]}>
       </ExpenseItem>
       <ExpenseItem expense={expenses[1]}>
       </ExpenseItem>
       <ExpenseItem expense={expenses[2]}>
       </ExpenseItem>
-    </div>
+    </Card>
   )
 }
 
