@@ -1,5 +1,5 @@
 function Card() {
     return (
-        <div className="card"></div>
+        <div className="card">{PaymentResponse.</div>
     )
 }
