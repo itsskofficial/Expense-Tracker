@@ -10,6 +10,7 @@
 .expense-item-info{
     display: flex;
     width: 50%;
+    justify-content: center;
 }
 
 .expense-item-title{
