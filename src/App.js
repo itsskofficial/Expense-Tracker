@@ -1,6 +1,6 @@
+
 import Card from "./components/Card"
 import ExpenseItem from "./components/ExpenseItem"
-import './index.css'
 
 function App() {
   let expenses = [
