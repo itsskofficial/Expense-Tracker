@@ -1,4 +1,5 @@
 import '../css/ExpenseItem.css'
+import '../css/Card.css'
 import Card from './Card'
 import ExpenseItemDate from './ExpenseItemDate'
 
