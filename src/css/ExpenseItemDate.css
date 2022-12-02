@@ -1,4 +1,6 @@
 .expense-item-date{
+    display: flex;
+    flex-direction: column;
     width: 20%;
     font-family: 'Montserrat',sans-serif;
     font-weight: 600;
