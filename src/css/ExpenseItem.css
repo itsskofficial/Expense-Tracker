@@ -10,7 +10,6 @@
 .expense-item-info{
     display: flex;
     width: 50%;
-    margin-left: 20px;
 }
 
 .expense-item-title{
