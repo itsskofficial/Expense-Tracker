@@ -22,7 +22,7 @@ function App() {
   ]
 
   return (
-    <Card class>
+    <Card className="">
       <ExpenseItem expense={expenses[0]}>
       </ExpenseItem>
       <ExpenseItem expense={expenses[1]}>
