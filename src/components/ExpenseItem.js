@@ -15,7 +15,7 @@ function ExpenseItem(props) {
                     ${props.expense.price}
                 </div>
             </div>
-        </div>
+        </Card>
     )
 }
 
