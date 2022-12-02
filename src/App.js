@@ -1,4 +1,5 @@
-
+import './index.css'
+import './'
 import Card from "./components/Card"
 import ExpenseItem from "./components/ExpenseItem"
 
