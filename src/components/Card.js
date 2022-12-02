@@ -1,5 +1,5 @@
 function Card(props) {
     return (
-        <div className="card">{PaymentResponse.</div>
+        <div className="card">{props.children}</div>
     )
 }
