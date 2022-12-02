@@ -1,7 +1,7 @@
 .expense-item{
     display: flex;
     width:90%;
-    margin-top: ;
+    margin-top: 50px 50px;
     padding: 20px;
     background-color: grey;
     border: 1px solid white;
