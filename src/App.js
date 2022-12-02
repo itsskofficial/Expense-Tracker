@@ -1,5 +1,5 @@
 import "./index.css";
-import ".css/Card.css";
+import "./components/UI/";
 import Card from "./components/UI/Card";
 import ExpenseItem from "./components/Expenses/ExpenseItem";
 
