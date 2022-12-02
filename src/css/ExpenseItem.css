@@ -10,15 +10,6 @@
     border-radius: 3%;
 }
 
-.expense-item-date{
-    width: 50%;
-    font-family: 'Montserrat',sans-serif;
-    font-weight: 600;
-    font-size: large;
-    color: white;
-    text-align: center;
-}
-
 .expense-item-info{
     display: flex;
     width: 50%;
