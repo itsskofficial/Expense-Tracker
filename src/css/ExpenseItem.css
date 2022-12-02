@@ -1,6 +1,7 @@
 .expense-item{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width:90%;
     margin: 30px;
     background-color: #171717;
