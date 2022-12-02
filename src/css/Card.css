@@ -1,5 +1,7 @@
 .card{
     border-radius: 3%;
     box-shadow: 3px white;
+    align-items: center;
+    justify-content: center;
 }
 
