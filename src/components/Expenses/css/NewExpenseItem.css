@@ -27,5 +27,5 @@
 }
 
 .new-expense-item-title-input,.new-expense-item-amount-input{
-
+    border-radius: 12px;
 }
