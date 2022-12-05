@@ -24,7 +24,9 @@ const NewExpenseItem = function () {
                     </div>
                 </div>
                 <div className="new-expense-item-actions">
-                    <button type=""></button>
+                    <button type="submit">
+                        Add Expense
+                    </button>
                 </div>
             </form>
         </div>
