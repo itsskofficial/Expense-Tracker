@@ -1,6 +1,10 @@
 
 const NewExpenseItem = function () {
     return (
-        <di
+        <div>
+            <form>
+                
+            </form>
+        </div>
     )
 }
