@@ -12,9 +12,9 @@ const NewExpenseItem = function () {
                     </div>
                     <div className="new-expense-item-control">
                         <label for="new-expense-item-amount-input" className="new-expense-item-label">
-                            Title
+                            Amount
                         </label>        
-                        <input type="text" className="new-expense-item-amount-input" id="new-expense-item-amont-input"></input>
+                        <input type="text" className="new-expense-item-amount-input" id="new-expense-item-amount-input"></input>
                     </div>
                 </div>
             </form>
