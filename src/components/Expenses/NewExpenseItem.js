@@ -8,10 +8,10 @@ const NewExpenseItem = function () {
     const titleChangeHandler = (event) => {
         setEnteredTitle(event.target.value)
     }
-    const titl0eChangeHandler = (event) => {
+    const amountChangeHandler = (event) => {
         setEnteredTitle(event.target.value)
     }
-    const titleChangeHandler = (event) => {
+    const dateChangeHandler = (event) => {
         setEnteredTitle(event.target.value)
     }
     return (
