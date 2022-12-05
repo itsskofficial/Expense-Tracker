@@ -8,6 +8,12 @@ const NewExpenseItem = function () {
     const titleChangeHandler = (event) => {
         setEnteredTitle(event.target.value)
     }
+    const titl0eChangeHandler = (event) => {
+        setEnteredTitle(event.target.value)
+    }
+    const titleChangeHandler = (event) => {
+        setEnteredTitle(event.target.value)
+    }
     return (
         <div>
             <form>
