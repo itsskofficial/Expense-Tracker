@@ -5,7 +5,9 @@ const NewExpenseItem = function () {
             <form>
                 <div className="new-expense-item-controls">
                     <div className="new-expense-item-control">
-                        <label for="new-expense-item-"        
+                        <label for="new-expense-item-title-input">
+                            
+                        </label>        
                     </div>
                 </div>
             </form>
