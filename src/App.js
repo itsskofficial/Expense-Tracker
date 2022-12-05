@@ -24,6 +24,9 @@ function App() {
   ];
 
   return (
+    <div>
+      
+    </div>
     <Card className="new-expense-container">
       <NewExpenseItem></NewExpenseItem>
     </Card>
