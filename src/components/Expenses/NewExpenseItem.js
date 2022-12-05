@@ -4,7 +4,7 @@ import './css/NewExpenseItem.css'
 const NewExpenseItem = function () {
     const enteredTitle, setEnteredTitle = useState('new-expense-item-title-input')
     
-    const on
+    const titlehangeHandler
     return (
         <div>
             <form>
