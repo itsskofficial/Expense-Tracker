@@ -1,6 +1,7 @@
 import './css/NewExpenseItem.css'
 
 const NewExpenseItem = function () {
+    
     return (
         <div>
             <form>
