@@ -14,7 +14,7 @@ const NewExpenseItem = function () {
                         <label for="new-expense-item-amount-input" className="new-expense-item-label">
                             Title
                         </label>        
-                        <input type="text" className="new-expense-item-title-input" id="new-expense-item-title-input"></input>
+                        <input type="text" className="new-expense-item-amount-input" id="new-expense-item-amont-input"></input>
                     </div>
                 </div>
             </form>
