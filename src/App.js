@@ -34,7 +34,6 @@ function App() {
         <ExpenseItem expense={expenses[2]}></ExpenseItem>
       </Card>
     </div>
-    
   );
 }
 
