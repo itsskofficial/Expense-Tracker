@@ -1,9 +1,10 @@
 .new-expense-item-controls{
     display: flex;
+    justify-content: sp;
 }
 
 .new-expense-item-label{
     color: white;
     font-family: 'Montserrat',sans-serif;
-    
+
 }
