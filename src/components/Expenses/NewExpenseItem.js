@@ -5,7 +5,7 @@ const NewExpenseItem = function () {
     const enteredTitle, setEnteredTitle = useState('new-expense-item-title-input')
     
     const titlehangeHandler = (event) => {
-        setEnteredTitle()
+        setEnteredTitle(event.target.value)
     }
     return (
         <div>
