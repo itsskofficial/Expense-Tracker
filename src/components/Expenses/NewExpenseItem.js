@@ -25,12 +25,11 @@ const NewExpenseItem = function () {
                     </div>
                 </div>
                 <div className="new-expense-item-actions">
-                    <div className="">
+                    <div className="new-expense-item-action">
                         <button type="submit" className="new-expense-item-button">
                             Add Expense
                         </button>
                     </div>
-                    
                 </div>
             </form>
         </div>
