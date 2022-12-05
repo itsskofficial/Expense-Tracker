@@ -33,4 +33,4 @@ const NewExpenseItem = function () {
     )
 }
 
-export default 
+export default NewExpenseItem
