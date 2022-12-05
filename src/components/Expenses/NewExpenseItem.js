@@ -3,7 +3,8 @@ import './css/NewExpenseItem.css'
 
 const NewExpenseItem = function () {
     const [enteredTitle, setEnteredTitle] = useState('new-expense-item-title-input')
-    const [enteredAmount,setEnteredAmount] = useState('new-expense-item-amount')
+    const [enteredAmount, setEnteredAmount] = useState('new-expense-item-amount')
+    const [enteredDate,setEnteredDate]
     const titleChangeHandler = (event) => {
         setEnteredTitle(event.target.value)
     }
