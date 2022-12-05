@@ -32,7 +32,7 @@ const NewExpenseItem = function () {
                         <input type="number" className="new-expense-item-amount-input" id="new-expense-item-amount-input" min="0.01" step="0.01"></input>
                     </div>
                     <div className="new-expense-item-control">
-                        <label for="new-expense-item-date-input" className="new-expense-item-label">
+                        <label for="new-expense-item-date-input" className="new-expense-item-label" onChange={date}>
                             Date
                         </label>        
                         <input type="date" className="new-expense-item-date-input" id="new-expense-item-date-input" min="2022-01-01" max="2022-12-31"></input>
