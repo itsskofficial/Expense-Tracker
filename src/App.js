@@ -26,13 +26,13 @@ function App() {
   return (
     <div>
       <Card className="new-expense-container">
-      <NewExpenseItem></NewExpenseItem>
-    </Card>
-    <Card className="expense-container">
-      <ExpenseItem expense={expenses[0]}></ExpenseItem>
-      <ExpenseItem expense={expenses[1]}></ExpenseItem>
-      <ExpenseItem expense={expenses[2]}></ExpenseItem>
-    </Card>
+        <NewExpenseItem></NewExpenseItem>
+      </Card>
+      <Card className="expense-container">
+        <ExpenseItem expense={expenses[0]}></ExpenseItem>
+        <ExpenseItem expense={expenses[1]}></ExpenseItem>
+        <ExpenseItem expense={expenses[2]}></ExpenseItem>
+      </Card>
     </div>
     
   );
