@@ -20,7 +20,7 @@ const NewExpenseItem = function () {
                         <label for="new-expense-item-date-input" className="new-expense-item-label">
                             Amount
                         </label>        
-                        <input type="date" className="new-expense-item-date-input" id="new-expense-item-date-input" min="20"></input>
+                        <input type="date" className="new-expense-item-date-input" id="new-expense-item-date-input" min="2022-"></input>
                     </div>
                 </div>
             </form>
