@@ -1,3 +1,7 @@
 .new-expense-item-controls{
     display: flex;
 }
+
+.new-expense-item-label{
+    color: white;
+}
