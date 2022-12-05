@@ -32,3 +32,5 @@ const NewExpenseItem = function () {
         </div>
     )
 }
+
+export default Bew
