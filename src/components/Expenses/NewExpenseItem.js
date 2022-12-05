@@ -3,7 +3,7 @@ const NewExpenseItem = function () {
     return (
         <div>
             <form>
-                <div class
+                <div className="new-expense"
             </form>
         </div>
     )
