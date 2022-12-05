@@ -9,10 +9,10 @@ const NewExpenseItem = function () {
         setEnteredTitle(event.target.value)
     }
     const amountChangeHandler = (event) => {
-        setEnteredTitle(event.target.value)
+        setEnteredAmount(event.target.value)
     }
     const dateChangeHandler = (event) => {
-        setEnteredTitle(event.target.value)
+        setEnteredDate(event.target.value)
     }
     return (
         <div>
