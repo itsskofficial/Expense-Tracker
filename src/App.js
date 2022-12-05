@@ -2,6 +2,7 @@ import "./index.css";
 import "./components/UI/css/Card.css";
 import Card from "./components/UI/Card";
 import ExpenseItem from "./components/Expenses/ExpenseItem";
+import NewExpenseItem from "./components/Expenses/NewExpenseItem";
 
 function App() {
   let expenses = [
@@ -24,7 +25,7 @@ function App() {
 
   return (
     <Card className="new-expense-container">
-      
+      <NewExpenseItem></NewExpenseItem>
     </Card>
     <Card className="expense-container">
       <ExpenseItem expense={expenses[0]}></ExpenseItem>
