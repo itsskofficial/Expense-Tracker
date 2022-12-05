@@ -1,3 +1,4 @@
+import './css'
 
 const NewExpenseItem = function () {
     return (
