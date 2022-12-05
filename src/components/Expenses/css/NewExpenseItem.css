@@ -1,6 +1,6 @@
 .new-expense-item-controls{
     display: flex;
-    justify-content: sp;
+    justify-content: space-evenly;
 }
 
 .new-expense-item-label{
