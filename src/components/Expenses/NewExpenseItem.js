@@ -33,4 +33,4 @@ const NewExpenseItem = function () {
     )
 }
 
-export default Bew
+export default BewExoebseFor
