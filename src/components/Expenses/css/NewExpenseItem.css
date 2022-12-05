@@ -32,5 +32,5 @@
 .new-expense-item-title-input,.new-expense-item-amount-input,.new-expense-item-date-input{
     border-radius: 7px;
     padding: 5px;
-    width:100%;
+    width:70%;
 }
