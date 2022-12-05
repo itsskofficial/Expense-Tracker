@@ -18,5 +18,7 @@
 }
 
 .new-expense-item-button{
-    padding:20
+    padding:20px;
+    text-align: center;
+    
 }
