@@ -8,7 +8,7 @@ const NewExpenseItem = function () {
                         <label for="new-expense-item-title-input">
                             Title
                         </label>        
-                        <input type="text" className="new-expense-item-title-input"
+                        <input type="text" className="new-expense-item-title-input" id
                     </div>
                 </div>
             </form>
