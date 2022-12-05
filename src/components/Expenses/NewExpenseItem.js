@@ -1,4 +1,4 @@
-import './css'
+import './css/NewExpenseItem.css'
 
 const NewExpenseItem = function () {
     return (
