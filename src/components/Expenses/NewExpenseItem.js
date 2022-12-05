@@ -2,7 +2,9 @@ import { useState } from 'react'
 import './css/NewExpenseItem.css'
 
 const NewExpenseItem = function () {
-    const enteredTitle,setEnteredTitle=useState('new-expense-item-title-input')
+    const enteredTitle, setEnteredTitle = useState('new-expense-item-title-input')
+    
+    const on
     return (
         <div>
             <form>
