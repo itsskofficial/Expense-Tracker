@@ -18,10 +18,10 @@ const NewExpenseItem = function () {
 
     const submitHandler = (event) => {
         event.preventDefault()
-        expenseData = {
+        const expenseData = {
             title:enteredTitle,
             amount: enteredAmount,
-            date:New Date(enteredDate)
+            date:new Date(enteredDate)
         }
     }
     return (
