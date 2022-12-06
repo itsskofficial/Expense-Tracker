@@ -1,1 +1,1 @@
-const ExpenseFilter 
+const ExpenseFilter = (props)
