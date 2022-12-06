@@ -3,8 +3,9 @@ import './css/ExpenseFilter.css'
 const ExpenseFilter = function () {
 
     const yearSelectHandler = () => {
-        
+        set
     }
+
     return (
         <div className="expense-filter">
             <div className="expense-filter-control">
