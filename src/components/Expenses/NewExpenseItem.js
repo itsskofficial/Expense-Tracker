@@ -16,7 +16,7 @@ const NewExpenseItem = function () {
         setEnteredDate(event.target.value)
     }
 
-    const submitHandler = (event) -> {
+    const submitHandler = (event) => {
         event.preventDe
     }
     return (
