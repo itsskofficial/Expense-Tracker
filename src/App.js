@@ -27,7 +27,9 @@ function App() {
     console.log(expense)
   }
 
-  const changeFilterHandler = (yea)
+  const changeFilterHandler = (year) => {
+    
+  }
 
   return (
     <div className="container">
