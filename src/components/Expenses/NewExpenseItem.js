@@ -19,7 +19,7 @@ const NewExpenseItem = function () {
     const submitHandler = (event) => {
         event.preventDefault()
         expenseData = {
-            title:
+            title:entered
         }
     }
     return (
