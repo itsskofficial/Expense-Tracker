@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="container">
       <Card className="new-expense-container">
-        <NewExpenseItem></NewExpenseItem>
+        <NewExpenseItem onAddExpense={}></NewExpenseItem>
       </Card>
       <Card className="expense-container">
         <ExpenseItem expense={expenses[0]}></ExpenseItem>
