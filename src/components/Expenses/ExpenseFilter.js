@@ -2,7 +2,9 @@ import './css/ExpenseFilter.css'
 
 const ExpenseFilter = function () {
 
-    const yearSelectHandler =
+    const yearSelectHandler = () => {
+        
+    }
     return (
         <div className="expense-filter">
             <div className="expense-filter-control">
