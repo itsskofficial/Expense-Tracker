@@ -23,12 +23,12 @@ function App() {
     },
   ];
 
-  const o
+  const 
 
   return (
     <div className="container">
       <Card className="new-expense-container">
-        <NewExpenseItem onAddExpense={}></NewExpenseItem>
+        <NewExpenseItem onAddExpense={addExpenseHandler}></NewExpenseItem>
       </Card>
       <Card className="expense-container">
         <ExpenseItem expense={expenses[0]}></ExpenseItem>
