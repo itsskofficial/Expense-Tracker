@@ -2,8 +2,8 @@
 
 const ExpenseFilter = function () {
     return (
-        <div>
-            
+        <div className="expense-filter">
+    
         </div>
     )
 }
