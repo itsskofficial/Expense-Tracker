@@ -21,7 +21,7 @@ const NewExpenseItem = function () {
         expenseData = {
             title:enteredTitle,
             amount: enteredAmount,
-            date:
+            date:New Date(enteredDate)
         }
     }
     return (
