@@ -27,6 +27,8 @@ function App() {
     console.log(expense)
   }
 
+  const changeFilterHandler = (yea)
+
   return (
     <div className="container">
       <Card className="new-expense-container">
