@@ -3,6 +3,7 @@ import "./components/UI/css/Card.css";
 import Card from "./components/UI/Card";
 import ExpenseItem from "./components/Expenses/ExpenseItem";
 import NewExpenseItem from "./components/Expenses/NewExpenseItem";
+import ExpenseFilter from "./components/Expenses/ExpenseFilter";
 
 function App() {
   let expenses = [
