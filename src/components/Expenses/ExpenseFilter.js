@@ -17,7 +17,7 @@ const ExpenseFilter = function (props) {
                 <label className="expense-filter-label">
                     Filter By Year
                 </label>
-                <select className="expense-filter-selector" onChange={year}> 
+                <select className="expense-filter-selector" onChange={yearSelectHandler}> 
                     <option value="2019">2019</option>
                     <option value="2020">2020</option>
                     <option value="2021">2021</option>
