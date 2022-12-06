@@ -32,13 +32,13 @@ const NewExpenseItem = function () {
                         <label for="new-expense-item-title-input" className="new-expense-item-label">
                             Title
                         </label>        
-                        <input type="text" className="new-expense-item-title-input" id="new-expense-item-title-input" onChange={titleChangeHandler}></input>
+                        <input type="text" className="new-expense-item-title-input" id="new-expense-item-title-input" onChange={titleChangeHandler} value={entered}></input>
                     </div>
                     <div className="new-expense-item-control">
                         <label for="new-expense-item-amount-input" className="new-expense-item-label">
                             Amount
                         </label>        
-                        <input type="number" className="new-expense-item-amount-input" id="new-expense-item-amount-input" min="0.01" step="0.01" onChange={amountChangeHandler} value=></input>
+                        <input type="number" className="new-expense-item-amount-input" id="new-expense-item-amount-input" min="0.01" step="0.01" onChange={amountChangeHandler} value={enteredAmount}></input>
                     </div>
                     <div className="new-expense-item-control">
                         <label for="new-expense-item-date-input" className="new-expense-item-label" onChange={dateChangeHandler}>
