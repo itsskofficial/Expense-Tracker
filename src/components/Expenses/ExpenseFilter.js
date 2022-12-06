@@ -9,6 +9,8 @@ const ExpenseFilter = function () {
                 </label>
                 <select className="expense-filter-selector">
                     <option value="2019"></option>
+                    <option value="2020"></option>
+                    
                 </select>
             </div>
            
