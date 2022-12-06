@@ -18,7 +18,7 @@ const ExpenseFilter = function () {
                     <option value="2019" onClick={yearSelectHandler}>2019</option>
                     <option value="2020" onClick={yearSelectHandler}>2020</option>
                     <option value="2021" onClick={yearSelectHandler}>2021</option>
-                    <option value="2022">2022</option>
+                    <option value="2022" onClick={yearSelectHandler}>2022</option>
                 </select>
             </div>
         </div>
