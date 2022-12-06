@@ -14,7 +14,6 @@ const ExpenseFilter = function () {
                     <option value="2022"></option>
                 </select>
             </div>
-            </div>
         </div>
     )
 }
