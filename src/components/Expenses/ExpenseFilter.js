@@ -1,4 +1,4 @@
-import './'
+import './css/ExpenseFilter.css'
 
 const ExpenseFilter = function () {
     return (
