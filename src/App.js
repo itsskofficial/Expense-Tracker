@@ -23,7 +23,7 @@ function App() {
     },
   ];
 
-  const 
+  const addExpenseHandler
 
   return (
     <div className="container">
