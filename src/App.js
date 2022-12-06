@@ -32,7 +32,7 @@ function App() {
       <Card className="new-expense-container">
         <NewExpenseItem onAddExpense={addExpenseHandler}></NewExpenseItem>
       </Card>
-      <Card className=""
+      <Card className="expense-filter-container"></Card>
       <Card className="expense-container">
         <ExpenseItem expense={expenses[0]}></ExpenseItem>
         <ExpenseItem expense={expenses[1]}></ExpenseItem>
