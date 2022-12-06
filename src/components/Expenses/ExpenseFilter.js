@@ -8,6 +8,8 @@ const ExpenseFilter = function (props) {
         setSelectedYear(event.target.value)
     }
 
+    props.onSe
+
     return (
         <div className="expense-filter">
             <div className="expense-filter-control">
