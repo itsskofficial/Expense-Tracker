@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './css/NewExpenseItem.css'
 
-const NewExpenseItem = function () {
+const NewExpenseItem = function (props) {
     const [enteredTitle, setEnteredTitle] = useState('')
     const [enteredAmount, setEnteredAmount] = useState('')
     const [enteredDate, setEnteredDate] = useState('')
