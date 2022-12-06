@@ -23,6 +23,8 @@ function App() {
     },
   ];
 
+  const o
+
   return (
     <div className="container">
       <Card className="new-expense-container">
