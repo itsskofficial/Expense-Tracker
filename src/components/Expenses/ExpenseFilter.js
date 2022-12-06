@@ -8,7 +8,7 @@ const ExpenseFilter = function () {
                     Filter By Year
                 </label>
                 <select className="expense-filter-selector">
-                    <opt
+                    <option value="2019"></option>
                 </select>
             </div>
            
