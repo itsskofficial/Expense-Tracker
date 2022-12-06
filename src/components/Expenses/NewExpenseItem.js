@@ -20,7 +20,8 @@ const NewExpenseItem = function () {
         event.preventDefault()
         expenseData = {
             title:enteredTitle,
-            amount:ente
+            amount: enteredAmount,
+            date:
         }
     }
     return (
