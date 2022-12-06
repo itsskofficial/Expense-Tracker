@@ -18,3 +18,5 @@ const ExpenseFilter = function () {
         </div>
     )
 }
+
+export default ExpenseFilter
