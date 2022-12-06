@@ -24,6 +24,8 @@ const NewExpenseItem = function () {
             date: new Date(enteredDate)
         }
         setEnteredTitle('')
+        setEnteredDate('')
+        setEnteredAmount('')
     }
     return (
         <div>
