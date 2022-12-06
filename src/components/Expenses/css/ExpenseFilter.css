@@ -1,9 +1,9 @@
-.expenses-filter {
+.expense-filter {
     color: white;
     padding: 0 1rem;
   }
   
-  .expenses-filter__control {
+  .expense-filter-control {
     display: flex;
     width: 100%;
     align-items: center;
