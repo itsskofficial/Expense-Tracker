@@ -21,8 +21,9 @@ const NewExpenseItem = function () {
         const expenseData = {
             title:enteredTitle,
             amount: enteredAmount,
-            date:new Date(enteredDate)
+            date: new Date(enteredDate)
         }
+        setEnteredTitle('')
     }
     return (
         <div>
@@ -32,7 +33,7 @@ const NewExpenseItem = function () {
                         <label for="new-expense-item-title-input" className="new-expense-item-label">
                             Title
                         </label>        
-                        <input type="text" className="new-expense-item-title-input" id="new-expense-item-title-input" onChange={titleChangeHandler} value={entered}></input>
+                        <input type="text" className="new-expense-item-title-input" id="new-expense-item-title-input" onChange={titleChangeHandler} value={enteredTitle}></input>
                     </div>
                     <div className="new-expense-item-control">
                         <label for="new-expense-item-amount-input" className="new-expense-item-label">
