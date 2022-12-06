@@ -17,7 +17,8 @@ const NewExpenseItem = function () {
     }
 
     const submitHandler = (event) => {
-        event.preventDe
+        event.preventDefault()
+        
     }
     return (
         <div>
