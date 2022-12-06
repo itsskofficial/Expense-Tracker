@@ -27,7 +27,7 @@ const NewExpenseItem = function () {
         setEnteredDate('')
         setEnteredAmount('')
 
-        props.onAdd
+        props.onAddExpense(expenseData)
     }
     return (
         <div>
