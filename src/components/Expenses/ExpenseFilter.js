@@ -1,1 +1,5 @@
-const ExpenseFilter = (props)
+
+
+const ExpenseFilter = function () {
+
+}
