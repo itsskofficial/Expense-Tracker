@@ -26,6 +26,8 @@ const NewExpenseItem = function () {
         setEnteredTitle('')
         setEnteredDate('')
         setEnteredAmount('')
+
+        PaymentResponse.
     }
     return (
         <div>
