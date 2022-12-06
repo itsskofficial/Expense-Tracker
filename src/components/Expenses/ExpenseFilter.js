@@ -8,7 +8,7 @@ const ExpenseFilter = function (props) {
         setSelectedYear(event.target.value)
     }
 
-    props.onSelectYear(selectedYear)
+    props.onChangeFilter(selectedYear)
 
     return (
         <div className="expense-filter">
