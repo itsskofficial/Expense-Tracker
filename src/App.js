@@ -38,7 +38,7 @@ function App() {
         <NewExpenseItem onAddExpense={addExpenseHandler}></NewExpenseItem>
       </Card>
       <Card className="expense-filter-container">
-        <ExpenseFilter selected={selectedYear}  onChangeFilter={changeFilterHandler}></ExpenseFilter>
+        <ExpenseFilter onChangeFilter={changeFilterHandler}></ExpenseFilter>
       </Card>
       <Card className="expense-container">
         <ExpenseItem expense={expenses[0]}></ExpenseItem>
