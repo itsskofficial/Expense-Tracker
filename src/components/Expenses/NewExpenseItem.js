@@ -15,6 +15,10 @@ const NewExpenseItem = function () {
     const dateChangeHandler = (event) => {
         setEnteredDate(event.target.value)
     }
+
+    const submitHandler = (event) -> {
+        event.preventDeg
+    }
     return (
         <div>
             <form onSubmit={submitHandler}>
