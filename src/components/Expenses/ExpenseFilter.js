@@ -6,8 +6,8 @@ const ExpenseFilter = function () {
             <div className="expense-filter-control">
                 <label className="expense-filter-label">Filter By Year</label>
             </div>
-            <div>
-                
+            <div className="expense-filter-con">
+
             </div>
         </div>
     )
