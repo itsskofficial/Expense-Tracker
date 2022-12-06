@@ -23,8 +23,8 @@ function App() {
     },
   ];
 
-  const addExpenseHandler => {
-    
+  const addExpenseHandler = (expense) => {
+    console.log(expense)
   }
 
   return (
