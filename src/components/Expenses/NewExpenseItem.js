@@ -27,7 +27,7 @@ const NewExpenseItem = function () {
         setEnteredDate('')
         setEnteredAmount('')
 
-        PaymentResponse.
+        props.onAdd
     }
     return (
         <div>
