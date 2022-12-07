@@ -27,6 +27,8 @@ function App() {
 
   console.log(expenses.filter(expense => expense.date.getFullYear()))
   console.log(expenses[0].date.getFullYear())
+  console.log(expenses[1].date.getFullYear())
+  console.log(expenses[2].date.getFullYear())
 
   const [expenseItems, setExpenseItems] = useState(expenses)
   let filterYear=0
