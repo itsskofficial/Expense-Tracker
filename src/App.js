@@ -34,7 +34,7 @@ function App() {
   console.log(expenses[2].date.getMonth())
 
   const [expenseItems, setExpenseItems] = useState(expenses)
-  let filterYear=0
+  const [filterYear,setFilterYear] = useState()
 
   const addExpenseHandler = (expense) => {
     setExpenseItems((prevExpenses) => {
