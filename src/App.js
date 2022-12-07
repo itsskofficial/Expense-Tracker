@@ -28,7 +28,7 @@ function App() {
   const [expenseItems,setExpenseItems] = useState(expenses)
 
   const addExpenseHandler = (expense) => {
-    console.log(expense)
+    setExpenseItems()
   }
 
   const changeFilterHandler = (year) => {
