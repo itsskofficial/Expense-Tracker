@@ -41,7 +41,7 @@ function App() {
   }
 
   console.log(filterYear)
-  console.log(expenses.filter(expense => expense.date.getFullYear()===filterYear))
+  console.log(expenseItems.filter(expense => expense.date.getFullYear()===filterYear))
 
   return (
     <div className="container">
