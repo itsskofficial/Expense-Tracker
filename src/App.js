@@ -9,17 +9,17 @@ import { useState } from "react";
 function App() {
   let expenses = [
     {
-      date: new Date(2021, 12, 3),
+      date: new Date(2021, 11, 3),
       title: "Ojaswini",
       price: 500,
     },
     {
-      date: new Date(2021, 12, 3),
+      date: new Date(2021, 11, 3),
       title: "Ojaswini",
       price: 500,
     },
     {
-      date: new Date(2021, 12, 3),
+      date: new Date(2021, 11, 3),
       title: "Ojaswini",
       price: 500,
     },
