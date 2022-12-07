@@ -55,7 +55,7 @@ function App() {
       </Card>
       <Card className="expense-container">
         {expenses.filter(expense => expense.date.getFullYear() === 2021).map((expense,index) => (
-          <ExpenseItem expense={{ key: index, ...expense }}></ExpenseItem>
+          <ExpenseItem expense={expense}></ExpenseItem>
         ))}
       </Card>
     </div>
