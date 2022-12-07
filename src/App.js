@@ -42,7 +42,7 @@ function App() {
       </Card>
       <Card className="expense-container">
         {expenses.map((expense) => {
-          
+          <ExpenseItem expense={expense}
         })
 
         }
