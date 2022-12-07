@@ -24,7 +24,7 @@ function App() {
     },
   ];
 
-  const [expenses,
+  const [expenses,setExpenses] = us
 
   const addExpenseHandler = (expense) => {
     console.log(expense)
