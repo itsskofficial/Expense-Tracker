@@ -34,7 +34,7 @@ function App() {
     })}
 
   const changeFilterHandler = (year) => {
-    window.filterYear=year
+    filterYear=year
   }
 
   return (
