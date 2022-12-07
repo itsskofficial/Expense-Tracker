@@ -49,9 +49,6 @@ function App() {
         {expenses.filter(expense => expense.date.getFullYear() === filerYear).map((expense,index) => (
           <ExpenseItem expense={{ key: index, ...expense }}></ExpenseItem>
         ))}
-        {/* <ExpenseItem expense={expenses[0]}></ExpenseItem>
-        <ExpenseItem expense={expenses[1]}></ExpenseItem>
-        <ExpenseItem expense={expenses[2]}></ExpenseItem> */}
       </Card>
     </div>
   );
