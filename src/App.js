@@ -25,7 +25,7 @@ function App() {
     },
   ];
 
-  const [expenses,setExpenses] = useState(expenses)
+  const [expenseItems,setExpenseItems] = useState(expenses)
 
   const addExpenseHandler = (expense) => {
     console.log(expense)
