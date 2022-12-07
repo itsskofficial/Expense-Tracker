@@ -46,7 +46,7 @@ function App() {
       </Card>
       <Card className="expense-container">
         {expenses.map((expense,index) => (
-          <ExpenseItem expense={indexexpense}></ExpenseItem>
+          <ExpenseItem expense={key:inexpense}></ExpenseItem>
         ))}
         {/* <ExpenseItem expense={expenses[0]}></ExpenseItem>
         <ExpenseItem expense={expenses[1]}></ExpenseItem>
