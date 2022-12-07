@@ -25,6 +25,8 @@ function App() {
     },
   ];
 
+  console.log(expenses.m)
+
   const [expenseItems, setExpenseItems] = useState(expenses)
   let filterYear=0
 
