@@ -28,10 +28,9 @@ function App() {
   const [expenseItems,setExpenseItems] = useState(expenses)
 
   const addExpenseHandler = (expense) => {
-    setExpenseItems(prevExpenses) => {
+    setExpenseItems((prevExpenses) => {
     return [expense,...prevExpenses]
-    }
-  }
+    }}
 
   const changeFilterHandler = (year) => {
     console.log(year)
