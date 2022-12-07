@@ -15,13 +15,13 @@ function App() {
       price: 500,
     },
     {
-      key:0,
+      key:1,
       date: new Date(2021, 11, 3),
       title: "Ojaswini",
       price: 500,
     },
     {
-      key:0,
+      key:2,
       date: new Date(2021, 11, 3),
       title: "Ojaswini",
       price: 500,
