@@ -32,7 +32,7 @@ function App() {
 
 
   const [expenseItems, setExpenseItems] = useState(expenses)
-  const [filterYear,setFilterYear] = useState('2019')
+  const [filterYear,setFilterYear] = useState(2019)
 
   const addExpenseHandler = (expense) => {
     setExpenseItems((prevExpenses) => {
