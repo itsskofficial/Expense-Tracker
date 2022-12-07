@@ -4,6 +4,7 @@ import Card from "./components/UI/Card";
 import ExpenseItem from "./components/Expenses/ExpenseItem";
 import NewExpenseItem from "./components/Expenses/NewExpenseItem";
 import ExpenseFilter from "./components/Expenses/ExpenseFilter";
+import { useState } from "react";
 
 function App() {
   let expenses = [
@@ -24,7 +25,7 @@ function App() {
     },
   ];
 
-  const [expenses,setExpenses] = us
+  const [expenses,setExpenses] = useState(expenses)
 
   const addExpenseHandler = (expense) => {
     console.log(expense)
