@@ -50,7 +50,7 @@ function App() {
       </Card>
       <Card className="expense-container">
         {expenseItems.filter(expense => expense.date.getFullYear() == filterYear).map((expense,index)=> (
-          <ExpenseItem expense={{key:expense}></ExpenseItem>
+          <ExpenseItem expense={{ key: index, ...expense }}></ExpenseItem>
         ))}
       </Card>
     </div>
