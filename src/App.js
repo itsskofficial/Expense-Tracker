@@ -43,6 +43,8 @@ function App() {
     setFilterYear(year)
   }
 
+  console.log(filterYear)
+
   return (
     <div className="container">
       <Card className="new-expense-container">
