@@ -39,11 +39,7 @@ function App() {
   const changeFilterHandler = (year) => {
     setFilterYear(year)
   }
-
-  console.log(filterYear)
-  console.log(expenseItems)
-  console.log(expenseItems.filter(expense => expense.date.getFullYear()==filterYear))
-
+  
   return (
     <div className="container">
       <Card className="new-expense-container">
