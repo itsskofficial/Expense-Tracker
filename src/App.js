@@ -41,7 +41,9 @@ function App() {
         <ExpenseFilter onChangeFilter={changeFilterHandler}></ExpenseFilter>
       </Card>
       <Card className="expense-container">
-        {expenses.map(expense)
+        {expenses.map((expense) => {
+          
+        })
 
         }
         ]}
