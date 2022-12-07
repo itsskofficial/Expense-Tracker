@@ -25,7 +25,7 @@ function App() {
     },
   ];
 
-  console.log(expenses.filter(expense=>expense.getFullYear===2021))
+  console.log(expenses.filter(expense=>expense.date.getFullYear()===2021))
 
   const [expenseItems, setExpenseItems] = useState(expenses)
   let filterYear=0
