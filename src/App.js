@@ -42,7 +42,7 @@ function App() {
     })}
 
   const changeFilterHandler = (year) => {
-    filterYear=year
+    setFilterYear(year)
   }
 
   return (
