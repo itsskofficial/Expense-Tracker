@@ -9,6 +9,7 @@ import { useState } from "react";
 function App() {
   let expenses = [
     {
+      key:0,
       date: new Date(2021, 11, 3),
       title: "Ojaswini",
       price: 500,
