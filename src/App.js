@@ -53,7 +53,7 @@ function App() {
         <ExpenseFilter onChangeFilter={changeFilterHandler}></ExpenseFilter>
       </Card>
       <Card className="expense-container">
-        {expenses.filter(expense => expense.date.getFullYear() === filterYear).map((expense)=> (
+        {expenses.filter(expense => expense.date.getFullYear() == filterYear).map((expense)=> (
           <ExpenseItem expense={expense}></ExpenseItem>
         ))}
       </Card>
