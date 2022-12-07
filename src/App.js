@@ -26,7 +26,7 @@ function App() {
   ];
 
   const [expenseItems, setExpenseItems] = useState(expenses)
-  const filerYear
+  const filerYear=0
 
   const addExpenseHandler = (expense) => {
     setExpenseItems((prevExpenses) => {
