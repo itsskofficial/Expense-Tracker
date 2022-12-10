@@ -61,7 +61,7 @@ const NewExpenseItem = function (props) {
                     <div className="new-expense-item-actions">
                         <div className="new-expense-item-action">
                             <button type="submit" className="new-expense-item-button">
-                                Add Expense
+                                Cancel
                             </button>
                         </div>
                         <div className="new-expense-item-action">
