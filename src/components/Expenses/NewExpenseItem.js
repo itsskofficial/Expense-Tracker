@@ -90,7 +90,7 @@ const NewExpenseItem = function (props) {
     }
 
     return (
-        {}
+        {newExpenseForm}
     )
 }
 
