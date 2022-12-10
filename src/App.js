@@ -37,7 +37,7 @@ function App() {
     setFilterYear(year)
   }
 
-  let expensesContent = <p className=>No expenses for {filterYear}</p>
+  let expensesContent = <p className="">No expenses for {filterYear}</p>
 
   return (
     <div className="container">
