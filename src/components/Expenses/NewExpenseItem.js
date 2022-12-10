@@ -76,6 +76,10 @@ const NewExpenseItem = function (props) {
         props.onAddExpense(expenseData)
     }
 
+    const cancelNewExpenseHandler = function() {
+        
+    }
+
     return (
         
     )
