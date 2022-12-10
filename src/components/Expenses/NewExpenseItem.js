@@ -6,7 +6,14 @@ const NewExpenseItem = function (props) {
     const [enteredAmount, setEnteredAmount] = useState('')
     const [enteredDate, setEnteredDate] = useState('')
 
-    let newExpenseForm = 
+    let newExpenseForm =
+        <div><div className="new-expense-item-actions">
+    <div className="new-expense-item-action">
+        <button type="submit" className="new-expense-item-button">
+            Add Expense
+        </button>
+    </div>
+</div></div>
     
     const titleChangeHandler = (event) => {
         setEnteredTitle(event.target.value)
