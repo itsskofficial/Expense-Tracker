@@ -77,7 +77,7 @@ const NewExpenseItem = function (props) {
     }
 
     const cancelNewExpenseHandler = function() {
-        
+        newExpenseForm = 
     }
 
     return (
