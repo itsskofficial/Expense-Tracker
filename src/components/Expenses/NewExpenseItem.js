@@ -70,7 +70,6 @@ const NewExpenseItem = function (props) {
                         </div>
                     </div>
                 </form>
-            </div>
 
         props.onAddExpense(expenseData)
     }
