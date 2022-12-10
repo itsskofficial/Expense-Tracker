@@ -28,7 +28,7 @@ const NewExpenseItem = function (props) {
 
     const addNewExpenseHandler = (event) => {
         console.log("addnewexpense")
-        setNewExpenseForm()
+        setNewExpenseForm(
             <form onSubmit={submitHandler}>
                 <div className="new-expense-item-controls">
                     <div className="new-expense-item-control">
@@ -63,6 +63,7 @@ const NewExpenseItem = function (props) {
                     </div>
                 </div>
             </form>
+        
     }
 
     const submitHandler = (event) => {
