@@ -13,7 +13,8 @@ const NewExpenseItem = function (props) {
                     <button type="submit" className="new-expense-item-button">
                         Add Expense
                     </button>
-        </div>
+            </div>
+        
 
     
     const titleChangeHandler = (event) => {
