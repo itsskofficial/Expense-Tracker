@@ -73,6 +73,14 @@ const NewExpenseItem = function (props) {
             date: new Date(enteredDate)
         }
         
+        newExpenseForm = 
+            <div className="new-expense-item-actions">
+                <div className="new-expense-item-action">
+                    <button className="new-expense-item-button">
+                        Add New Expense
+                    </button>
+                </div>
+            </div>
         
 
         props.onAddExpense(expenseData)
