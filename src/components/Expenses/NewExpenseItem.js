@@ -29,6 +29,7 @@ const NewExpenseItem = function (props) {
 
         props.onAddExpense(expenseData)
     }
+
     return (
         <div>
             <form onSubmit={submitHandler}>
