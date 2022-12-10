@@ -74,7 +74,7 @@ const NewExpenseItem = function (props) {
             date: new Date(enteredDate)
         }
         
-        newExpenseForm = 
+        setNewExpenseForm( 
             <div className="new-expense-item-actions">
                 <div className="new-expense-item-action">
                     <button className="new-expense-item-button" onClick={addNewExpenseHandler}>
