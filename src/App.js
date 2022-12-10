@@ -37,7 +37,7 @@ function App() {
     setFilterYear(year)
   }
 
-  const filteredExpenses = {expenseItems.filter(expense => expense.date.getFullYear() == filterYear) }
+  const filteredExpenses = expenseItems.filter(expense => expense.date.getFullYear() == filterYear) 
 
   let expensesContent = <p className="no-expenses-msg">No expenses for {filterYear}</p>
 
