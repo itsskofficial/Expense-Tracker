@@ -86,8 +86,9 @@ const NewExpenseItem = function (props) {
     }
 
     return (
-    
-        {newExpenseForm}
+        <div>
+            {newExpenseForm}
+        </div>
     )
 }
 
