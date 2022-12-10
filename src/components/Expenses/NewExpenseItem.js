@@ -87,7 +87,6 @@ const NewExpenseItem = function (props) {
     }
 
     let newExpenseForm =
-        <div>
             <div className="new-expense-item-actions">
                 <div className="new-expense-item-action">
                     <button className="new-expense-item-button" onClick={addNewExpenseHandler}>
@@ -95,7 +94,6 @@ const NewExpenseItem = function (props) {
                     </button>
                 </div>
             </div>
-        </div>
 
     return (
         <div>
