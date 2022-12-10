@@ -41,7 +41,7 @@ function App() {
 
   let expensesContent = <p className="no-expenses-msg">No expenses for {filterYear}</p>
 
-  if ()
+  if (filteredExpenses.length>0)
 
   return (
     <div className="container">
