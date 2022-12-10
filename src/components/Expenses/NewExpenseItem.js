@@ -29,40 +29,40 @@ const NewExpenseItem = function (props) {
 
     const addNewExpenseHandler = (event) => {
         newExpenseForm = 
-        <form onSubmit={submitHandler}>
-            <div className="new-expense-item-controls">
-                <div className="new-expense-item-control">
-                    <label for="new-expense-item-title-input" className="new-expense-item-label">
-                        Title
-                    </label>        
-                    <input type="text" className="new-expense-item-title-input" id="new-expense-item-title-input" onChange={titleChangeHandler} value={enteredTitle}></input>
+            <form onSubmit={submitHandler}>
+                <div className="new-expense-item-controls">
+                    <div className="new-expense-item-control">
+                        <label for="new-expense-item-title-input" className="new-expense-item-label">
+                            Title
+                        </label>        
+                        <input type="text" className="new-expense-item-title-input" id="new-expense-item-title-input" onChange={titleChangeHandler} value={enteredTitle}></input>
+                    </div>
+                    <div className="new-expense-item-control">
+                        <label for="new-expense-item-amount-input" className="new-expense-item-label">
+                            Amount
+                        </label>        
+                        <input type="number" className="new-expense-item-amount-input" id="new-expense-item-amount-input" min="0.01" step="0.01" onChange={amountChangeHandler} value={enteredAmount}></input>
+                    </div>
+                    <div className="new-expense-item-control">
+                        <label for="new-expense-item-date-input" className="new-expense-item-label" onChange={dateChangeHandler}>
+                            Date
+                        </label>        
+                        <input type="date" className="new-expense-item-date-input" id="new-expense-item-date-input" min="2022-01-01" max="2022-12-31" value={enteredDate}></input>
+                    </div>
                 </div>
-                <div className="new-expense-item-control">
-                    <label for="new-expense-item-amount-input" className="new-expense-item-label">
-                        Amount
-                    </label>        
-                    <input type="number" className="new-expense-item-amount-input" id="new-expense-item-amount-input" min="0.01" step="0.01" onChange={amountChangeHandler} value={enteredAmount}></input>
+                <div className="new-expense-item-actions">
+                    <div className="new-expense-item-action">
+                        <button className="new-expense-item-button" onClick={cancelNewExpenseHandler}>
+                            Cancel
+                        </button>
+                    </div>
+                    <div className="new-expense-item-action">
+                        <button type="submit" className="new-expense-item-button">
+                            Add Expense
+                        </button>
+                    </div>
                 </div>
-                <div className="new-expense-item-control">
-                    <label for="new-expense-item-date-input" className="new-expense-item-label" onChange={dateChangeHandler}>
-                        Date
-                    </label>        
-                    <input type="date" className="new-expense-item-date-input" id="new-expense-item-date-input" min="2022-01-01" max="2022-12-31" value={enteredDate}></input>
-                </div>
-            </div>
-            <div className="new-expense-item-actions">
-                <div className="new-expense-item-action">
-                    <button className="new-expense-item-button" onClick={cancelNewExpenseHandler}>
-                        Cancel
-                    </button>
-                </div>
-                <div className="new-expense-item-action">
-                    <button type="submit" className="new-expense-item-button">
-                        Add Expense
-                    </button>
-                </div>
-            </div>
-        </form>
+            </form>
     }
 
     const submitHandler = (event) => {
