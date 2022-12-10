@@ -78,7 +78,7 @@ const NewExpenseItem = function (props) {
         props.onAddExpense(expenseData)
     }
 
-    const cancelNewExpenseHandler = function() {
+    const cancelNewExpenseHandler = (event) => {
         newExpenseForm = 
             <div className="new-expense-item-actions">
                 <div className="new-expense-item-action">
