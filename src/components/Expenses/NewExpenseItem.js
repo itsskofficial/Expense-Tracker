@@ -34,9 +34,8 @@ const NewExpenseItem = function (props) {
             amount: enteredAmount,
             date: new Date(enteredDate)
         }
-        setEnteredTitle('')
-        setEnteredDate('')
-        setEnteredAmount('')
+        
+        newExpenseForm = 
 
         props.onAddExpense(expenseData)
     }
