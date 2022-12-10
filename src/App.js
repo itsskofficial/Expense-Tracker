@@ -37,6 +37,8 @@ function App() {
     setFilterYear(year)
   }
 
+  {expenseItems.filter(expense => expense.date.getFullYear() == filterYear)
+
   let expensesContent = <p className="no-expenses-msg">No expenses for {filterYear}</p>
 
   if ()
@@ -50,7 +52,7 @@ function App() {
         <ExpenseFilter onChangeFilter={changeFilterHandler}></ExpenseFilter>
       </Card>
       <Card className="expense-container">
-        {expenseItems.filter(expense => expense.date.getFullYear() == filterYear).map((expense,index)=> (
+        .map((expense,index)=> (
           <ExpenseItem expense={{ key: index, ...expense }}></ExpenseItem>
         ))}
       </Card>
