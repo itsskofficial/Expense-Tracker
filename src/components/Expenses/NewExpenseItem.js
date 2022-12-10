@@ -14,7 +14,7 @@ const NewExpenseItem = function (props) {
                         Add Expense
                     </button>
         </div>
-</div></div>
+
     
     const titleChangeHandler = (event) => {
         setEnteredTitle(event.target.value)
