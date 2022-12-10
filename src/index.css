@@ -19,3 +19,7 @@ code {
   margin: 50px 50px;
   width:95%
 }
+
+.no-expenses-msg{
+  font-family: 'Montserrat', sans-serif;
+}
