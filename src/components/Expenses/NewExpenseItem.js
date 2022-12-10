@@ -96,6 +96,7 @@ const NewExpenseItem = function (props) {
                     </button>
                 </div>
             </div>
+        )
     }
 
     setNewExpenseForm (
