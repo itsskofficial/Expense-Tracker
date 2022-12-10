@@ -39,6 +39,8 @@ function App() {
 
   let expensesContent = <p className="no-expenses-msg">No expenses for {filterYear}</p>
 
+  if ()
+
   return (
     <div className="container">
       <Card className="new-expense-container">
