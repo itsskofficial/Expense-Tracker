@@ -76,8 +76,8 @@ const NewExpenseItem = function (props) {
         props.onAddExpense(expenseData)
     }
 
-    const cancelNewExpenseHandler = {
-        
+    const cancelNewExpenseHandler = function() {
+
     }
 
     return (
