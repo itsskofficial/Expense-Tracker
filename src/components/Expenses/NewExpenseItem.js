@@ -63,7 +63,7 @@ const NewExpenseItem = function (props) {
                     </div>
                 </div>
             </form>
-        
+        )
     }
 
     const submitHandler = (event) => {
