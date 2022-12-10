@@ -11,9 +11,9 @@ const NewExpenseItem = function (props) {
             <div className="new-expense-item-actions">
                 <div className="new-expense-item-action">
                     <button type="submit" className="new-expense-item-button">
-            Add Expense
-        </button>
-    </div>
+                        Add Expense
+                    </button>
+        </div>
 </div></div>
     
     const titleChangeHandler = (event) => {
