@@ -86,7 +86,7 @@ const NewExpenseItem = function (props) {
                     </button>
                 </div>
             </div>
-    </div>
+        </div>
     }
 
     return (
