@@ -28,7 +28,6 @@ const NewExpenseItem = function (props) {
     }
 
     const addNewExpenseHandler = (event) => {
-        newExpenseForm =
         newExpenseForm = 
         <form onSubmit={submitHandler}>
             <div className="new-expense-item-controls">
