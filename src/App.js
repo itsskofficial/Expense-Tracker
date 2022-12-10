@@ -53,9 +53,7 @@ function App() {
         <ExpenseFilter onChangeFilter={changeFilterHandler}></ExpenseFilter>
       </Card>
       <Card className="expense-container">
-        .map((expense,index)=> (
-          <ExpenseItem expense={{ key: index, ...expense }}></ExpenseItem>
-        ))}
+      
       </Card>
     </div>
   );
