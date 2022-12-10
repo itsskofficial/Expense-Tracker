@@ -78,19 +78,19 @@ const NewExpenseItem = function (props) {
 
     const cancelNewExpenseHandler = function() {
         newExpenseForm = 
-        <div>
-            <div className="new-expense-item-actions">
-                <div className="new-expense-item-action">
-                    <button className="new-expense-item-button">
-                        Add New Expense
-                    </button>
+            <div>
+                <div className="new-expense-item-actions">
+                    <div className="new-expense-item-action">
+                        <button className="new-expense-item-button">
+                            Add New Expense
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
     }
 
     return (
-        
+        {}
     )
 }
 
