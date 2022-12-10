@@ -27,7 +27,9 @@ const NewExpenseItem = function (props) {
         setEnteredDate(event.target.value)
     }
 
-    const addNewExpenseHandler = (event) =
+    const addNewExpenseHandler = (event) => {
+        
+    }
 
     const submitHandler = (event) => {
         event.preventDefault()
