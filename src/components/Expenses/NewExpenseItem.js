@@ -10,7 +10,7 @@ const NewExpenseItem = function (props) {
         <div>
             <div className="new-expense-item-actions">
                 <div className="new-expense-item-action">
-                    <button className="new-expense-item-button">
+                    <button className="new-expense-item-button" onClick={}>
                         Add New Expense
                     </button>
                 </div>
