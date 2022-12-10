@@ -42,7 +42,9 @@ function App() {
   let expensesContent = <p className="no-expenses-msg">No expenses for {filterYear}</p>
 
   if (filteredExpenses.length > 0)
-    {expensesContent = {}}
+    {expensesContent = {filteredExpenses.map((expense,index)=> (
+      <ExpenseItem expense={{ key: index, ...expense }}></ExpenseItem>
+    ))}}
 
   return (
     <div className="container">
