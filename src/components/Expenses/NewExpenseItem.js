@@ -99,16 +99,6 @@ const NewExpenseItem = function (props) {
         )
     }
 
-    setNewExpenseForm (
-        <div className="new-expense-item-actions">
-            <div className="new-expense-item-action">
-                <button className="new-expense-item-button" onClick={addNewExpenseHandler}>
-                    Add New Expense
-                </button>
-            </div>
-        </div>
-    )
-
     return (
         <div>
             {newExpenseForm}
