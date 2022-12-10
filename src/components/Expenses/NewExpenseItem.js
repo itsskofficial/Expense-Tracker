@@ -82,7 +82,6 @@ const NewExpenseItem = function (props) {
                 </div>
             </div>
         
-
         props.onAddExpense(expenseData)
     }
 
