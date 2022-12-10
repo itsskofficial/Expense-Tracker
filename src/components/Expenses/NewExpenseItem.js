@@ -5,6 +5,7 @@ const NewExpenseItem = function (props) {
     const [enteredTitle, setEnteredTitle] = useState('')
     const [enteredAmount, setEnteredAmount] = useState('')
     const [enteredDate, setEnteredDate] = useState('')
+
     
     const titleChangeHandler = (event) => {
         setEnteredTitle(event.target.value)
