@@ -37,6 +37,8 @@ function App() {
     setFilterYear(year)
   }
 
+  const expensesContent = 
+
   return (
     <div className="container">
       <Card className="new-expense-container">
