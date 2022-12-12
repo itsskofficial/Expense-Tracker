@@ -3,7 +3,7 @@ import './css/Chart.css'
 
 const Chart = (props) => {
     <div className="chart">
-        {props.dataPoints.map(dataPoint => <ChartBar value={dataPoint.value} max={}></ChartBar>)}
+        {props.dataPoints.map(dataPoint => <ChartBar value={dataPoint.value} maxValue={null}></ChartBar>)}
     </div>
 }
 
