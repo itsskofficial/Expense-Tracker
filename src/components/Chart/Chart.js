@@ -1,3 +1,4 @@
+import './ChartBar'
 import 
 
 const Chart = (props) => {
