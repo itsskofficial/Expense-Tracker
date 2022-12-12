@@ -2,6 +2,6 @@ import './css/ChartBar.css'
 
 const ChartBar = (props) => {
     return (
-        <div className=''
+        <div className='chart-bar'
     )
 }
