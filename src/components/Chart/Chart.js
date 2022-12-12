@@ -3,7 +3,7 @@ import './css/Chart.css'
 
 const Chart = (props) => {
     <div className="chart">
-        {props.dataPoints.map(dataPoint=><Cha)}
+        {props.dataPoints.map(dataPoint= )}
     </div>
 }
 
