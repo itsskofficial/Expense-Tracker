@@ -7,6 +7,7 @@ const ChartBar = (props) => {
                 <div className='chart-bar-fill'>
                 </div>
             </div>
+            <div className='chart-bar-'
         </div>
     )
 }
