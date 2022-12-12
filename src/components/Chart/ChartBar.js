@@ -8,7 +8,7 @@ const ChartBar = (props) => {
                 </div>
             </div>
             <div className='chart-bar-label'>
-                Label
+                {props.label}
             </div>
         </div>
     )
