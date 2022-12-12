@@ -1,1 +1,1 @@
-import './css/Char'
+import './css/ChartBar.css'
