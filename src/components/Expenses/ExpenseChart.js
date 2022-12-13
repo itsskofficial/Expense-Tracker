@@ -1,3 +1,5 @@
+import Chart from "../Chart/Chart"
+
 const ExpenseChart = (props) => {
     const chartDataPoints = [
         {label:'Jan',value:0},
@@ -21,7 +23,7 @@ const ExpenseChart = (props) => {
     } 
 
     return (
-        
+        <Chart 
     )
 }
 
