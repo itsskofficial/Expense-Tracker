@@ -14,3 +14,5 @@ const ExpenseChart = (props) => {
         {label:'Dec',value:0},
     ]
 }
+
+export default ExpenseChart
