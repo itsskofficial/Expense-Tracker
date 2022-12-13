@@ -1,5 +1,5 @@
 const ExpenseChart = (props) => {
-    dataPoinys = {{
+    const chartDataPoints = {{
         
     }}
 }
