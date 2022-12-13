@@ -15,7 +15,7 @@ const ExpenseChart = (props) => {
     ]
 
     for (expense in props.expenses) {
-        expense.
+        
     } 
 
     return (
