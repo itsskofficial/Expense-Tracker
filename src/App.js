@@ -5,6 +5,7 @@ import ExpenseItem from "./components/Expenses/ExpenseItem";
 import NewExpenseItem from "./components/Expenses/NewExpenseItem";
 import ExpenseFilter from "./components/Expenses/ExpenseFilter";
 import { useState } from "react";
+import ExpenseChart from "./components/Expenses/ExpenseChart";
 
 function App() {
   let expenses = [
@@ -55,7 +56,7 @@ function App() {
         <ExpenseFilter onChangeFilter={changeFilterHandler}></ExpenseFilter>
       </Card>
       <Card className="expense-chart-container">
-        
+        <ExpenseChart 
       </Card>
       <Card className="expense-container">
         {expensesContent}
