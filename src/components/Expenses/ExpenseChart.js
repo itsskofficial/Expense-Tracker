@@ -14,7 +14,9 @@ const ExpenseChart = (props) => {
         {label:'Dec',value:0},
     ]
 
-    for expense in props.expenses 
+    for (expense in props.expenses {
+
+    } 
 
     return (
 
