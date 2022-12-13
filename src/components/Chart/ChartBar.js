@@ -1,7 +1,8 @@
 import './css/ChartBar.css'
 
 const ChartBar = (props) => {
-    let barF
+    let barFillHeight = "0%"
+    
     return (
         <div className='chart-bar'>
             <div className='chart-bar-inner'>
