@@ -10,8 +10,8 @@ const ExpenseChart = (props) => {
         {label:'Aug',value:0},
         {label:'Sep',value:0},
         {label:'Oct',value:0},
-        {label:'Jan',value:0},
-        {label:'Jan',value:0},
+        {label:'Nov',value:0},
+        {label:'Dec',value:0},
         {label:'Jan',value:0},
     ]
 }
