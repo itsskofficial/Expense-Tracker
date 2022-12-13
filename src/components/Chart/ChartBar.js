@@ -1,6 +1,7 @@
 import './css/ChartBar.css'
 
 const ChartBar = (props) => {
+    let barF
     return (
         <div className='chart-bar'>
             <div className='chart-bar-inner'>
