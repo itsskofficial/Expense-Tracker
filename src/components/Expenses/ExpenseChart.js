@@ -16,7 +16,7 @@ const ExpenseChart = (props) => {
 
     for (const expense in props.expenses) {
         const expenseMonth = expense.date.getFullMonth()
-        chartDataPoints[expen]
+        chartDataPoints[expenseMonth] = 
 
     } 
 
