@@ -23,7 +23,7 @@ const ExpenseChart = (props) => {
     } 
 
     return (
-        <Chart 
+        <Chart dataPoints={data}
     )
 }
 
