@@ -3,7 +3,7 @@ import './css/ChartBar.css'
 const ChartBar = (props) => {
     let barFillHeight = "0%"
     if (props.max > 0) {
-        
+        barFillHeight = Math.round()
     }
     return (
         <div className='chart-bar'>
