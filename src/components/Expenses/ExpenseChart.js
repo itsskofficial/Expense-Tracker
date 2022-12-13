@@ -1,3 +1,5 @@
 const ExpenseChart = (props) => {
-    
+    dataPoinys = {{
+        
+    }}
 }
