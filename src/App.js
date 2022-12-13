@@ -56,7 +56,7 @@ function App() {
         <ExpenseFilter onChangeFilter={changeFilterHandler}></ExpenseFilter>
       </Card>
       <Card className="expense-chart-container">
-        <ExpenseChart 
+        <ExpenseChart expenses={filteredExpenses}
       </Card>
       <Card className="expense-container">
         {expensesContent}
