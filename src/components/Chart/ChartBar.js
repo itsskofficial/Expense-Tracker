@@ -2,7 +2,9 @@ import './css/ChartBar.css'
 
 const ChartBar = (props) => {
     let barFillHeight = "0%"
-    
+    if (props.max > 0) {
+        
+    }
     return (
         <div className='chart-bar'>
             <div className='chart-bar-inner'>
